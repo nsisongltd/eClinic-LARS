@@ -1,0 +1,43 @@
+{
+    "TESTS" : {
+    "WBC" : "WBC",
+    "NEU" : "Neutrophils (Polymorphs)",
+    "LYM" : "LYMPH",
+    "MON" : "Monocyte",
+    "EOS" : "EOS",
+    "BASO" : "BASO",
+    "RBC" : "RBC",
+    "HGB" : "Haemoglobin (Hb)",
+    "HCT" : "HCT",
+    "MCV" : "MCV",
+    "MCH" : "MCH",
+    "MCHC" : "MCHC",
+    "RDW_CV" : "RDW-CV",
+    "RDW_SD" : "RDW-SD",
+    "PLT" : "Platelet Count",
+    "PDW" : "PDW",
+    "MPV" : "MPV",
+    "MID" : "MID",
+    "P_LCR" : "P-LCR"
+    },
+    "POSITION" : {
+        "WBC" : 4,
+        "NEU" : 7,
+        "LYM" : 5,
+        "MON" : 6,
+        "EOS" : 8,
+        "BASO" : 9,
+        "RBC" : 19,
+        "HGB" : 20,
+        "HCT" : 21,
+        "MCV" : 22,
+        "MCH" : 23,
+        "MCHC" : 24,
+        "RDW_CV" : 25,
+        "RDW_SD" : 26,
+        "PLT" : 28,
+        "PDW" : 30,
+        "MPV" : 29,
+        "P_LCR" : 32
+    }
+}

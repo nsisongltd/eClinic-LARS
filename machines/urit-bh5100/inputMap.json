@@ -1,0 +1,22 @@
+{
+    "WBC" : "test[259375]",
+    "NEU" : "test[259376]",
+    "LYM" : "test[259377]",
+    "MON" : "test[259379]",
+    "EOS" : "test[259380]",
+    "BASO" : "test[259381]",
+    "RBC" : "test[259382]",
+    "HGB" : "test[259383]",
+    "HCT" : "test[259384]",
+    "MCV" : "test[259385]",
+    "MCH" : "test[259386]",
+    "MCHC" : "test[259387]",
+    "RDW_CV" : "test[259388]",
+    "RDW_SD" : "test[259389]",
+    "PLT" : "test[259390]",
+    "PDW" : "test[259391]",
+    "MPV" : "test[259392]",
+    "P_LCR" : "test[259393]",
+    "ESR" : "test[259394]",
+    "MID" : "test[259378]"
+}

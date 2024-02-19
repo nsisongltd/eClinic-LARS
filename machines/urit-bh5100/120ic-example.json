@@ -1,0 +1,42 @@
+{
+    "PIN-DEMO": 123456,
+    "PIN": 1234567,
+    "URL": "http://123.4.5.678",
+    "PAGES": {
+      "PATHOLOGY": "/request/pathology#"
+    },
+    "LOGIN": {
+      "LOGIN_URL": "/user/login",
+      "DATA": {
+        "identity": "hospital-name",
+        "credential": "password",
+        "clinic_token": "HOSPITAL-09"
+      }
+    },
+    "TOKEN": "req-d61b1f9c-1193-3167-2c8a-baa71cd",
+    "KEY_DEMO": "ae3ec9ca5d77a34b292a724d98d37223011d7406ccf5f58ceb66efcfcd3088e3MTIzNDU2Nzg5MDdlMTQxMKL4gSAChPaqrFcplYP13XA=",
+    "KEY": "OZv78OfO4U16A08nmtavtQ==",
+    "PARAMETERS": {},
+    "INPUTS": {
+      "WBC": "test[259375]",
+      "NEU": "test[259376]",
+      "LYM": "test[259377]",
+      "MON": "test[259379]",
+      "EOS": "test[259380]",
+      "BASO": "test[259381]",
+      "RBC": "test[259382]",
+      "HGB": "test[259383]",
+      "HCT": "test[259384]",
+      "MCV": "test[259385]",
+      "MCH": "test[259386]",
+      "MCHC": "test[259387]",
+      "RDW_CV": "test[259388]",
+      "RDW_SD": "test[259389]",
+      "PLT": "test[259390]",
+      "PDW": "test[259391]",
+      "MPV": "test[259392]",
+      "P_LCR": "test[259393]",
+      "ESR": "test[259394]",
+      "MID": "test[259378]"
+    }
+  }
