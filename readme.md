@@ -20,9 +20,9 @@ This documentation would provide a comprehensive guide on setting up and using t
 
 - Overview of the system architecture, illustrating how the hardware interacts with laboratory machines and eClinic.
 
-1. The LRAS hardware exposes an HL7 unidirectional receiver, which waits for data transmission from a URITH machine.
+1. The LRAS hardware exposes an HL7 unidirectional receiver, which waits for data transmission from a URIT BH-5100 machine .
 2. The LRAS hardware uses the test ID, embedded in the name parameter of the test (inputted by the lab scientist), to get the request token.   
-3. The LRAS hardware then fetches the test and maps the parameters returned by the URITH machine with the parameters available for the test on eClinic software.
+3. The LRAS hardware then fetches the test and maps the parameters returned by the URIT BH-5100 machine with the parameters available for the test on eClinic software.
 
 - Diagrams or flowcharts to visually represent the data flow.
 
@@ -38,7 +38,7 @@ This documentation would provide a comprehensive guide on setting up and using t
 
 - **HL7 Profiles:** Any specific HL7 profiles implemented in this integration are tailored to the requirements of the eClinic software and the laboratory machines involved in the data transmission process.
 
-Please refer to the [HL7 Version 1.1 Documentation](ANSI_HL7_EHR-S FM_R2.1_2020JUN_FM.pdf) for detailed information on the specifications and standards followed in this integration.
+Please refer to the [HL7 Version 1.1 Documentation](https://github.com/nsisongltd/eClinic-LARS/blob/29c43d330d955618fb80f4bc9ac5cf7f07789404/ANSI_HL7_EHR-S%20FM_R2.1_2020JUN_FM.pdf) for detailed information on the specifications and standards followed in this integration.
 
 ## LAN Configuration
 
