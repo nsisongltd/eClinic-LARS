@@ -68,6 +68,7 @@ Please refer to the [HL7 Version 1.1 Documentation](https://github.com/nsisonglt
 
 ```
 Please follow these testing procedures and LAN configuration guidelines to ensure a reliable and secure setup.
+
 ```
 
 ## Installation, Setup and Use
@@ -226,6 +227,7 @@ Feel free to contact us with questions, concerns, or requests for additional ass
 
 ```
 Please refer to this section for guidance on securing sensitive health data and addressing any known issues or limitations in the hardware setup.
+
 ```
 
 ## In Conclusion,
