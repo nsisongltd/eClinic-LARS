@@ -5,7 +5,7 @@
 
 This documentation would provide a comprehensive guide on setting up and using the laboratory data transmission hardware we built. The hardware facilitates the direct transmission of lab data results via HL7 to the eClinic hospital information management software over the LAN.
 
-## Hardware Specification
+## Hardware Use Requirement
 
 - Keep power level at a maximum of 5V AV/DC power to run the LRAS hardware
 - Carefully attach LAN cable to the LRAS hardware to avoid destroying ports
