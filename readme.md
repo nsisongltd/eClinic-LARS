@@ -185,7 +185,7 @@ Please follow these testing procedures and LAN configuration guidelines to ensur
    - **Issue:** Delays in the integration process may occur during peak usage times.
    - **Solution:** Optimize data processing algorithms and consider scaling hardware resources as needed.
 
-```json
+```
 Please refer to this section for guidance on securing sensitive health data and addressing any known issues or limitations in the hardware setup.
 ```
 
