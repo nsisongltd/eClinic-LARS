@@ -75,10 +75,7 @@ _Please refer to the [HL7 Version 1.1 Documentation](https://github.com/nsisongl
   - Document the communication protocols employed (e.g., TCP/IP).
   - Provide any specific configuration settings related to these protocols.
 
-```
-Please follow these testing procedures and LAN configuration guidelines to ensure a reliable and secure setup.
-
-```
+_Please follow these testing procedures and LAN configuration guidelines to ensure a reliable and secure setup._
 
 ## Installation, Setup and Use
 
@@ -234,10 +231,7 @@ Feel free to contact us with questions, concerns, or requests for additional ass
    - **Issue:** Delays in the integration process may occur during peak usage times.
    - **Solution:** Optimize data processing algorithms and consider scaling hardware resources as needed.
 
-```
-Please refer to this section for guidance on securing sensitive health data and addressing any known issues or limitations in the hardware setup.
-
-```
+_Please refer to this section for guidance on securing sensitive health data and addressing any known issues or limitations in the hardware setup._
 
 ## In Conclusion,
 
