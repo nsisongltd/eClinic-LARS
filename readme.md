@@ -20,6 +20,10 @@ This documentation would provide a comprehensive guide on setting up and using t
 
 - Overview of the system architecture, illustrating how the hardware interacts with laboratory machines and eClinic.
 
+1. The LRAS hardware exposes an HL7 unidirectional receiver, which waits for data transmission from a URITH machine.
+2. The LRAS hardware uses the test ID, embedded in the name parameter of the test (inputted by the lab scientist), to get the request token.   
+3. The LRAS hardware then fetches the test and maps the parameters returned by the URITH machine with the parameters available for the test on eClinic software.
+
 - Diagrams or flowcharts to visually represent the data flow.
 
 ## HL7 Integration
@@ -68,7 +72,7 @@ Please follow these testing procedures and LAN configuration guidelines to ensur
 
 1. **Step 1:** Install the LRAS hardware.
 2. **Step 2:** Configure the network settings for connecting to laboratory machines.
-3. **Step 3:** Integrate with eClinic by using this **example data map**.
+3. **Step 3:** Integrate with eClinic by using the **sample data map** provided.
 4. **Step 4:** Perform tests on lab machines and click **TRANSMIT**.
 
 ## Testing Procedures
@@ -121,9 +125,42 @@ Please follow these testing procedures and LAN configuration guidelines to ensur
 
 ## Maintenance and Support
 
-- Guidelines for ongoing maintenance.
-- Information on updates or upgrades to the hardware or software.
-- Contact information for support or assistance.
+### Guidelines for Ongoing Maintenance
+
+1. **Regular Inspections:**
+   - Conduct routine physical inspections of the hardware components to identify any signs of wear or malfunction.
+
+2. **Software Updates:**
+   - Stay informed about software updates for both the hardware firmware and any associated applications.
+   - Plan and schedule regular updates to ensure system security and performance.
+
+3. **Database Maintenance:**
+   - Regularly optimize and clean the database used for storing HL7 messages and configuration data.
+
+4. **Backup Procedures:**
+   - Periodically test and verify the effectiveness of the backup procedures.
+   - Ensure that backup data can be successfully restored in case of data loss.
+
+5. **Monitoring and Alerts:**
+   - Implement monitoring tools to track system performance, network activity, and potential security threats.
+   - Configure alerts to notify administrators of any abnormal system behavior.
+
+### Information on Updates or Upgrades
+
+1. **Software Upgrades:**
+   - Should there be an update to the eClinic software, kindly evaluate the benefits and requirements of each upgrade before planning and executing the update process.
+
+2. **Documentation Updates:**
+   - Keep all documentation, including this README, up-to-date with the latest configurations and instructions.
+
+### Contact Information for Support or Assistance
+
+For any inquiries, support, or assistance, please reach out to our dedicated support team:
+
+- **Support Email:** hello@nsisong.com
+- **Support Phone:** +234 (806) 516 5879
+
+Feel free to contact us with questions, concerns, or requests for additional assistance. We are committed to providing timely and effective support to ensure the optimal functioning of your laboratory data transmission hardware.
 
 ## Security Considerations
 
