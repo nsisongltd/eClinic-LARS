@@ -47,7 +47,9 @@ graph TD;
 
 - **HL7 Profiles:** Any specific HL7 profiles implemented in this integration are tailored to the requirements of the eClinic software and the laboratory machines involved in the data transmission process.
 
+```
 Please refer to the [HL7 Version 1.1 Documentation](https://github.com/nsisongltd/eClinic-LARS/blob/main/hl7/ANSI_HL7_EHR-S%20FM_R2.1_2020JUN_FM.pdf) for detailed information on the specifications and standards followed in this integration.
+```
 
 ## LAN Configuration
 
