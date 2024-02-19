@@ -26,15 +26,14 @@ This documentation would provide a comprehensive guide on setting up and using t
 
 - Flowcharts to visually represent the data flow.
 
-### Flowchart
-
 ```mermaid
 graph TD;
-  A[URIT BH-5100 Machine] -->|Sends Lab Data| B[HL7 Receiver on LRAS Hardware]
-  B -->|Extracts Test ID| C[Get Request Token]
-  C -->|Fetches Test| D[Map Parameters with eClinic]
-  D -->|Transmit Mapped Data| E[eClinic Software]
+      A[URIT BH-5100 Machine] -->|Sends Lab Data| B[HL7 Receiver on LRAS Hardware]
+        B -->|Extracts Test ID| C[Get Request Token]
+          C -->|Fetches Test| D[Map Parameters with eClinic]
+            D -->|Transmit Mapped Data| E[eClinic Software]
 
+```
 
 ## HL7 Integration
 
