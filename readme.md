@@ -24,7 +24,17 @@ This documentation would provide a comprehensive guide on setting up and using t
     2. The LRAS hardware uses the test ID, embedded in the name parameter of the test (inputted by the lab scientist), to get the request token.   
     3. The LRAS hardware then fetches the test and maps the parameters returned by the URIT BH-5100 machine with the parameters available for the test on eClinic software.
 
-- Diagrams or flowcharts to visually represent the data flow.
+- Flowcharts to visually represent the data flow.
+
+### Flowchart
+
+```mermaid
+graph TD;
+  A[URIT BH-5100 Machine] -->|Sends Lab Data| B[HL7 Receiver on LRAS Hardware]
+  B -->|Extracts Test ID| C[Get Request Token]
+  C -->|Fetches Test| D[Map Parameters with eClinic]
+  D -->|Transmit Mapped Data| E[eClinic Software]
+
 
 ## HL7 Integration
 
