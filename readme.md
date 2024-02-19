@@ -66,7 +66,9 @@ Please refer to the [HL7 Version 1.1 Documentation](ANSI_HL7_EHR-S FM_R2.1_2020J
   - Document the communication protocols employed (e.g., TCP/IP).
   - Provide any specific configuration settings related to these protocols.
 
+```
 Please follow these testing procedures and LAN configuration guidelines to ensure a reliable and secure setup.
+```
 
 ## Installation, Setup and Use
 
